@@ -1,0 +1,527 @@
+.menu-mobile{
+	display: none;
+	padding-top: 20px;
+}
+.menu-mobile .fa-bars{
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+.overlay {
+	height: 0%;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0, 0.9);
+	overflow-y: hidden;
+	transition: 0.5s;
+}
+
+.overlay-content {
+	position: relative;
+	top: 5%;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.overlay a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+	color: #f1f1f1;
+}
+
+.overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 25px;
+	font-size: 30px;
+}
+
+#home{
+	background-image: url('../assets/img/bg.jpg');
+	height: 100vh;
+	width: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.logo-brand{
+	text-align: center;
+	padding-top: 20px;
+}
+.logo-brand img{
+	max-width: 200px;
+	height: auto;
+}
+.konten-home{
+	margin-top: 80px;
+}
+.menu ul li{
+	list-style: none;
+	margin-bottom: 15px;
+}
+.menu ul li a{
+	color: #fff;
+	font-weight: 600;
+}
+.menu ul li a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+.konten-home-right{
+	text-align: right;
+	color: #fff;
+}
+.btn-outline-white a{
+	border: 1px solid #fff;
+	padding: 5px 15px 5px 15px;
+	border-radius: 30px;
+	color: #fff;
+}
+.btn-outline-white a:hover{
+	border: 1px solid #fff;
+	padding: 5px 15px 5px 15px;
+	background-color: #005887;
+	border-radius: 30px;
+	color: #fff;
+}
+
+/*-- About --*/
+#about{
+	height: 100%;
+	right: 0;
+	left: 0;
+	width:100%;
+}
+.about-left{
+	background-color: #EEEEEE;
+	height: 100%;
+}
+.title-about img {
+	width: 100%;
+	height: 200px;
+	color: red;
+}
+.title-about-left{
+	padding-top: 80px;
+	color: #005887;
+}
+.title-about svg{
+	fill:#fff;
+}
+.title-about h1{
+	font-weight: bold;
+}
+.konten-about{
+	padding-top: 25px;
+	padding-left: 80px;
+}
+.konten-about p{
+	font-weight: 600;
+	color: #005887;
+}
+.btn-outline-blue {
+	margin-top: 70px;
+	padding-bottom: 30px;
+}
+.btn-outline-blue a{
+	border: 1px solid #005887;
+	padding: 5px 15px 5px 15px;
+	border-radius: 30px;
+	color: #005887;
+}
+.btn-outline-blue a:hover{
+	background-color: #005887;
+	border: 1px solid #005887;
+	padding: 5px 15px 5px 15px;
+	border-radius: 30px;
+	color: #fff;
+}
+.about-right{
+	background-image: url('../assets/img/bg-about.jpg');
+	height: auto;
+	width: 100%; 
+	background-position: center;
+	background-size: cover;
+}
+
+/*--Portofolio--*/
+#portofolio{
+	width: 100%;
+	height: 100%;
+	background-color: #005887;
+	padding: 25px;
+	padding-bottom: 30px;
+}
+#portofolio h1{
+	color: #fff;
+	margin-bottom: 30px;
+}
+.img-brand {
+	position: relative;
+	width: 100%;
+	cursor: pointer;
+	height: 200px;
+	margin-bottom: 15px;
+}
+.image {
+	display: block;
+	width: 100%;
+	max-height: 100px;
+}
+
+.overlay2 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #fff;
+}
+
+.img-brand:hover .overlay2 {
+	opacity: 1;
+}
+
+.img-brand2 {
+	color: white;
+	font-size: 14px;
+	position: absolute;
+	text-align: center;
+	padding: 20px;
+}
+.img-brand2 img{
+	width: 100%;
+	max-height: 75px;
+}
+.btn-outline-blue2 {
+	margin-top: 25px;
+}
+.btn-outline-blue2 a{
+	border: 1px solid #005887;
+	padding: 5px 15px 5px 15px;
+	border-radius: 30px;
+	color: #005887;
+}
+.btn-outline-blue2 a:hover{
+	background-color: #005887;
+	border: 1px solid #005887;
+	padding: 5px 15px 5px 15px;
+	border-radius: 30px;
+	color: #fff;
+}
+
+/*-- investent --*/
+.investment-left{
+	background-image: url('../assets/img/bg3.jpg');
+	height: auto;
+	width: 100%; 
+	background-position: center;
+	background-size: cover;
+}
+.konten-investment{
+	padding-top: 20px;
+}
+.investment-right{
+	background-color: #EEEEEE;
+	height: 100%;
+	color: #005887;
+}
+.title-investment{
+	margin-bottom: 20px;	
+}
+.title-investment h1{
+	font-weight: bold;
+}
+.konten-investment p{
+	font-weight: 600;
+}
+
+/*-- Contact --*/
+#contact{
+	background-image: url('../assets/img/bg2.jpg');
+	height: 100%;
+	width: 100%; 
+	padding-bottom: 30px;
+	background-position: center;
+	background-size: cover;
+}
+.konten-contact{
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.konten-kontak-left h1{
+	font-weight: bold;
+	color: #fff;
+}
+.konten-kontak-left p{
+	font-weight: 600;
+	color: #fff;
+}
+.info-contact{
+	margin-top: 45px;
+}
+.fa-map-marker-alt{
+	color: #fff;
+	font-weight: bold;
+}
+.fa-clock{
+	color: #fff;
+	font-weight: bold;
+}
+.fa-envelope{
+	color: #fff;
+	font-weight: bold;
+}
+.fa-phone-volume{
+	color: #fff;
+	font-weight: bold;
+}
+.spacing{
+	margin-bottom: 15px;
+}
+.form-message{
+	padding-top: 50px;
+}
+.form-message input{
+	border-radius: 30px;
+}
+.form-message textarea{
+	border-radius: 10px;
+}
+.form-message .form-group{
+	margin-top: 20px;
+}
+.btn-outline-white button{
+	border: 1px solid #fff;
+	padding: 5px 15px 5px 15px;
+	border-radius: 30px;
+	color: #fff;
+}
+.btn-outline-white button:hover{
+	border: 1px solid #fff;
+	padding: 5px 15px 5px 15px;
+	background-color: #005887;
+	border-radius: 30px;
+	color: #fff;
+}
+
+/*--footer--*/
+#footer{
+	width: 100%;
+	height: 100%;
+	background-color: #005887;
+	padding: 25px;
+	padding-bottom: 30px;
+}
+.footer-brand{
+	max-height: 50px;
+	width: 70%;
+	margin-bottom: 60px;
+}
+.footer-brand img{
+	width: 100%;
+	height: auto;
+}
+.footer-menu ul{
+}
+.footer-menu ul li{
+	list-style: none;
+	text-align: left;
+}
+.footer-menu ul li a{
+	color: #fff;
+}
+.footer-search h6{
+	color: #fff;
+}
+.footer-search .fa-search{
+	color: #005887;
+	padding-top: 12px;
+	padding-left: 10px;
+	position: absolute;
+}
+.footer-search  input:focus{
+	padding-left: 35px;
+}
+.sosmed ul{
+	margin-left: -40px;
+}
+.sosmed ul li{
+	background-color: #fff;
+	height: 30px;
+	width: 30px;
+	border-radius: 100px;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+/*Responsive*/
+@media (min-width: 120px) and (max-width: 320px) {
+	.menu-mobile{
+		display: block;
+	}
+	.logo-brand{
+		display: none;
+	}
+	.menu{
+		display: none;
+	}
+	#home{
+		height: 100%;
+		padding-bottom: 150px;
+	}
+	.konten-home h1{
+		font-size: 24px;
+	}
+	.konten-about{
+		padding-top: 25px;
+		padding-left: 10px;
+	}
+	#portofolio h1{
+		font-size: 32px;
+	}
+	.img-brand {
+		height: 100px;
+		padding: 0;
+	}
+	.img-brand2 {
+		color: white;
+		font-size: 10px;
+		position: absolute;
+		text-align: center;
+		padding: 20px;
+	}
+	.img-brand2 img{
+		width: 100%;
+		max-height: 55px;
+	}
+	.btn-outline-blue2 a{
+		padding: 0 5px 0 5px;
+		border-radius: 30px;
+		font-size: 10px;
+	}
+	.btn-outline-blue2 a:hover{
+		padding: 0 5px 0 5px;
+		border-radius: 30px;
+		font-size: 10px;
+	}
+	.footer-menu ul{
+		margin-left: -35px;
+	}
+}
+@media (min-width: 321px) and (max-width: 576px) {
+	.menu-mobile{
+		display: block;
+	}
+	.logo-brand{
+		display: none;
+	}
+	.menu{
+		display: none;
+	}
+	#home{
+		height: 100%;
+		padding-bottom: 150px;
+	}
+	.konten-home h1{
+		font-size: 24px;
+	}
+	.konten-about{
+		padding-top: 25px;
+		padding-left: 10px;
+	}
+	#portofolio h1{
+		font-size: 32px;
+	}
+	.img-brand {
+		height: 130px;
+		padding: 0;
+	}
+	.img-brand2 {
+		color: white;
+		font-size: 10px;
+		position: absolute;
+		text-align: center;
+		padding: 20px;
+	}
+	.img-brand2 img{
+		width: 100%;
+		max-height: 55px;
+	}
+	.btn-outline-blue2 a{
+		padding: 0 5px 0 5px;
+		border-radius: 30px;
+		font-size: 10px;
+	}
+	.btn-outline-blue2 a:hover{
+		padding: 0 5px 0 5px;
+		border-radius: 30px;
+		font-size: 10px;
+	}
+	.footer-menu ul{
+		margin-left: -35px;
+	}
+}
+@media (min-width: 576px) and (max-width: 768px) {
+	.menu-mobile{
+		display: block;
+	}
+	.logo-brand{
+		display: none;
+	}
+	#home{
+		height: 100%;
+		padding-bottom: 150px;
+	}
+	.menu{
+		display: none;
+	}
+	.konten-about{
+		padding-top: 25px;
+		padding-left: 10px;
+	}
+	.img-brand {
+		height: 170px;
+		padding: 0;
+	}
+	.img-brand2 {
+		color: white;
+		font-size: 10px;
+		position: absolute;
+		text-align: center;
+		padding: 20px;
+	}
+	.img-brand2 img{
+		width: 100%;
+		max-height: 55px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.img-brand {
+		height: 150px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 999px) {
+
+}
+@media (min-width: 999px) and (max-width: 1200px) {
+
+}
